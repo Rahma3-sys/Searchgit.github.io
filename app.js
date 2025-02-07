@@ -1,13 +1,13 @@
 // Init Github
-const github = new GitHub;
+const github = new Github;
 //Init UI
 const ui = new UI ;
 
 // Search input
-const searchUser = document.getElementById('searchUser');
+const SearchUser = document.getElementById('SearchUser');
 
 // Search input event listener
-searchUser.addEventListener('keyup', (e) => {
+SearchUser.addEventListener('keyup', (e) => {
     // Get input text
     const userText = e.target.value;
 
